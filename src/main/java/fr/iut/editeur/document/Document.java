@@ -46,6 +46,12 @@ public class Document {
         texte = leftPart + insertion + rightPart;
     }
 
+    public void minuscules(int start, int end) {
+        String minPart = texte.substring(start, end);
+        minPart = minPart.toLowerCase();
+        remplacer(start, end, minPart);
+    }
+
     @Override
     public String toString() {
         return this.texte;
