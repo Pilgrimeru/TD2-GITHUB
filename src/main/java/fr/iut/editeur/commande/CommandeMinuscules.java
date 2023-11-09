@@ -21,4 +21,9 @@ public class CommandeMinuscules extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public String getDescriptionCommande() {
+        return "rend du texte en minuscule";
+    }
+
 }
