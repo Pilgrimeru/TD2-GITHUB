@@ -15,4 +15,9 @@ public class CommandeClear extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public String getDescriptionCommande() {
+        return "retire le texte";
+    }
+
 }
